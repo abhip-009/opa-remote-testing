@@ -1,0 +1,8 @@
+service:
+  name: my-test-service
+  identifier: mytestservice
+  orgIdentifier: default
+  projectIdentifier: GitXTestingAbhijit
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes
