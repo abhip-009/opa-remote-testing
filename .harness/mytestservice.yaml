@@ -1,5 +1,5 @@
 service:
-  name: my-test-service-2
+  name: my-test-service-12
   identifier: mytestservice
   orgIdentifier: default
   projectIdentifier: GitXTestingAbhijit
