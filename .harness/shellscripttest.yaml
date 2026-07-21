@@ -14,9 +14,17 @@ pipeline:
           execution:
             steps:
               - step:
-                  type: Wait
-                  name: Wait_1
-                  identifier: Wait_1
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
                   spec:
-                    duration: 10m
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo "hello world"
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
         tags: {}
